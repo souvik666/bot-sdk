@@ -1,7 +1,7 @@
-import IEventService from "../interfaces/user";
+import IUserService from "../interfaces/user";
 import { IUserDetailsPayload } from "../types/userTypes";
 
-class EventService implements IEventService {
+class UserService implements IUserService {
 
   updateUserInfo(payload: IUserDetailsPayload): void {
     const { userName, userEmail, ...additionalProps } = payload;
@@ -14,4 +14,4 @@ class EventService implements IEventService {
   }
 }
 
-export default EventService;
+export default UserService;

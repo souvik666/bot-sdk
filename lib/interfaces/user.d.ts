@@ -1,7 +1,7 @@
 import { IUserDetailsPayload } from "../types/userTypes";
 
-interface IEventService {
+interface IUserService {
   updateUserInfo(payload: IUserDetailsPayload): void;
 }
 
-export default IEventService;
+export default IUserService;
