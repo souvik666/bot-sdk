@@ -1,9 +1,9 @@
 import UserService from "./user";
 
 export class BotSdk {
-  event: UserService;
+  user: UserService;
 
   constructor() {
-    this.event = new UserService();
+    this.user = new UserService();
   }
 }
