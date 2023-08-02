@@ -1,4 +1,4 @@
-import EventService from "./events";
+import EventService from "./user";
 
 export class BotSdk {
   event: EventService;

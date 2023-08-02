@@ -1,9 +1,9 @@
-import IEventService from "../interfaces/events";
-import { UserDetailsPayload } from "../types/eventTypes";
+import IEventService from "../interfaces/user";
+import { IUserDetailsPayload } from "../types/userTypes";
 
 class EventService implements IEventService {
 
-  sendUserInfo(payload: UserDetailsPayload): void {
+  updateUserInfo(payload: IUserDetailsPayload): void {
     const { userName, userEmail, ...additionalProps } = payload;
     const message = {
       userName: userName,

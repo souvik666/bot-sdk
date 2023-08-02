@@ -1,5 +1,5 @@
-import EventService from "./events";
+import UserService from "./user";
 
 export declare class BotSdk {
-  event: EventService;
+  event: UserService;
 }
