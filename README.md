@@ -21,3 +21,17 @@ After using the `sendUserInfo` method (by emitting an event with `window.postMes
 | userEmail      | The user's email.            |
 | customProperty | Custom property's value.     |
 | ...            | Other additional properties. |
+```
+
+## Example
+
+```ts
+const sdk = new BotSdk()
+
+sdk.event.sendUserInfo({
+name:"foo",
+email:"faa@fpp.com",
+//** adtional info that we want to pass
+company:"CLIBRAIN"
+})
+```
