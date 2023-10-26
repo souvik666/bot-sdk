@@ -1,6 +1,15 @@
 # Bot SDK Usage Guide
 
-This guide explains how to inject text to the context
+This guide explains how to inject text into the context `CLIBOT`, and why we even need it, let's talk about a single and simple use-case, suppose we have a registered user who is talking with the `CLIBOT` and you have also disabled the mandatory login so that the user can directly initiate a conversation with our CLIBOT, now here comes the question how the bot will know about the user at whole like the name age or anything else which is super important from the perspective of a business this is the simplest use case that we can visualize,  but possibilities are endless what we can achieve through this feature from suggesting products to generating leads now let's dive into the world of `CLIBOT`, let's learn how to use it, their will be few steps before we can start using the feature 
+
+## step 1
+After you have logged in to CLIBOT you will see a button to `create new agent` Please click on that and choose your favorite name to be the project name add some descriptions related to it and please click on save boom! now we have our own Clibot and click on the agent card 
+
+
+## step 2 
+
+On the left side, you will see a drawer there will be a button called `configuration` please click on that, it will take you to the config page 
+
 
 ## Steps
 
